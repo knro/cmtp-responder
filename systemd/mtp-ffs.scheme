@@ -6,8 +6,8 @@ attrs :
 strings = (
 	{
 		lang = 0x409;
-		manufacturer = "Collabora";
-		product = "MTP Gadget";
+		manufacturer = "Ikaurs Technologies";
+		product = "StellarMate Pro";
 		serialnumber="000000001";
 	}
 );

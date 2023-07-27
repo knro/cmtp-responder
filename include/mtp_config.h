@@ -41,15 +41,15 @@
 #define MTP_SUPPORT_PRINT_COMMAND
 
 /* External Storage */
-#define MTP_EXTERNAL_PATH_CHAR		"/media/card"
+#define MTP_EXTERNAL_PATH_CHAR		"/home/stellarmate/Pictures"
 
 /*STORAGE*/
-#define MTP_MAX_STORAGE			(30*1024*1024)	/*30MB */
+#define MTP_MAX_STORAGE			(5000*1024*1024)	/*5000MB */
 #define MTP_MAX_STORAGE_IN_OBJTS	0xFFFFFFFF
 
 #define MTP_BUF_SIZE_FOR_INT		11      /* 2^32 - 1 = 4294967295 (10 digits) */
 
-#define MTP_STORAGE_DESC_EXT		"Card Storage"
+#define MTP_STORAGE_DESC_EXT		"Pictures"
 
 /* about 976kbytes for object property value like sample data*/
 #define MTP_MAX_PROP_DATASIZE          1000000
@@ -82,7 +82,7 @@
 #define MTP_VENDOR_EXTENSIONDESC_CHAR	\
 	"microsoft.com:1.0;android.com:1.0; "
 
-#define MTP_MANUFACTURER_CHAR		"Collabora"
+#define MTP_MANUFACTURER_CHAR		"Ikarus Technologies"
 
 #define MTP_MMAP_THRESHOLD	524288
 #define MTP_READ_USB_SIZE	4096
